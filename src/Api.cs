@@ -96,7 +96,7 @@ namespace DocumentPlagiarismChecker
         /// </summary>
         /// <param name="results">A set of file matching scores</param>
         public void WriteOutput(){
-            //TODO: must be selected by settings
+            //Comentario Daniel
             t.Write(this.MatchingResults);
         }
 
