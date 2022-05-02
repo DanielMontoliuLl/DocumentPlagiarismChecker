@@ -95,9 +95,11 @@ namespace DocumentPlagiarismChecker
         /// Writes the gioven scores to the configured outputs.
         /// </summary>
         /// <param name="results">A set of file matching scores</param>
-        public void WriteOutput(){
-            //0 patatero
-            t.Write(algo.txt);
+        public void WriteOutput()
+
+            //Comentario Ejercicio6
+            t.Write(this.MatchingResults);
+
         }
 
         /// <summary>
